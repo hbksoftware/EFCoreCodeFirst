@@ -1,16 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
 using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace EFCoreEntity
 {
     public class Employee
     {
+        [Key]
         public int EmployeeID { get; set; }
         public int DepartmentID { get; set; }
         public string EmployeeName { get; set; }
+        public int AdressID { get; set; }
         public EmployeeAdress EmployeeAdress { get; set; }
         public Department Department { get; set; }
         public virtual ICollection<EmployeeProject> EmployeeProjects { get; set; }
@@ -21,10 +22,13 @@ namespace EFCoreEntity
         {
             builder.HasKey(e => e.EmployeeID);
 
-            builder.HasOne(e => e.EmployeeAdress)
-                .WithOne(e => e.Employee)
-                .HasForeignKey<EmployeeAdress>(e => e.AdressID);
+            /// One To One(Employee-To-EmployeeAdress)
+            builder.HasOne<EmployeeAdress>(agn => agn.EmployeeAdress)
+                .WithOne(agnu => agnu.Employee)
+                .HasForeignKey<Employee>(agency => agency.AdressID)
+                .OnDelete(DeleteBehavior.Cascade);
 
+            /// One To Many(Department-To-Employee)
             builder.HasOne(e => e.Department)
                 .WithMany(e => e.Employees)
                 .HasForeignKey(e => e.DepartmentID);

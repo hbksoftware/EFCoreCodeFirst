@@ -1,7 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EFCoreEntity
 {
@@ -18,6 +15,7 @@ namespace EFCoreEntity
         {
             modelBuilder.ApplyConfiguration(new EmployeeEntityConfiguration());
             modelBuilder.ApplyConfiguration(new EmployeeProjectEntityConfiguration());
+            modelBuilder.ApplyConfiguration(new EmployeeAdressEntityConfiguration());
         }
     } 
 }

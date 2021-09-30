@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EFCoreEntity
 {
@@ -19,10 +16,13 @@ namespace EFCoreEntity
         public void Configure(EntityTypeBuilder<EmployeeProject> builder)
         {
             builder.HasKey(ep => new { ep.EmployeeID, ep.ProjectID });
+
+            /// One To Many(Employee - To - EmployeeProjects)
             builder.HasOne(e => e.Employee)
                  .WithMany(ep => ep.EmployeeProjects)
                  .HasForeignKey(e => e.EmployeeID);
 
+            /// One To Many(Project - To - EmployeeProjects)
             builder.HasOne(e => e.Project)
                  .WithMany(ep => ep.EmployeeProjects)
                  .HasForeignKey(e => e.ProjectID);

@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreWebMvc\\EFCoreWebMvc.csproj": {}
+    "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreWebMvc\\EFCoreWebMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreEntity\\EFCoreEntity.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreEntity\\EFCoreEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreEntity\\EFCoreEntity.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreEntity\\EFCoreEntity.csproj",
         "projectName": "EFCoreEntity",
-        "projectPath": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreEntity\\EFCoreEntity.csproj",
-        "packagesPath": "C:\\Users\\HBK SOFTWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreEntity\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreEntity\\EFCoreEntity.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreEntity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HBK SOFTWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -52,6 +47,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -69,27 +70,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreWebMvc\\EFCoreWebMvc.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreWebMvc\\EFCoreWebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreWebMvc\\EFCoreWebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreWebMvc\\EFCoreWebMvc.csproj",
         "projectName": "EFCoreWebMvc",
-        "projectPath": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreWebMvc\\EFCoreWebMvc.csproj",
-        "packagesPath": "C:\\Users\\HBK SOFTWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreWebMvc\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreWebMvc\\EFCoreWebMvc.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreWebMvc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HBK SOFTWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -102,8 +98,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreEntity\\EFCoreEntity.csproj": {
-                "projectPath": "C:\\Users\\HBK SOFTWARE\\Documents\\CodeFirstEFCore5.0\\EfCoreWeb\\EFCoreEntity\\EFCoreEntity.csproj"
+              "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreEntity\\EFCoreEntity.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\hbksoftware\\EFCoreCodeFirst\\EFCoreEntity\\EFCoreEntity.csproj"
               }
             }
           }
@@ -119,6 +115,12 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
             },
@@ -145,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

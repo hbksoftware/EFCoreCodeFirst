@@ -1,9 +1,13 @@
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.deps.json
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.dll
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.pdb
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.csprojAssemblyReference.cache
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.AssemblyInfoInputs.cache
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.AssemblyInfo.cs
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.csproj.CoreCompileInputs.cache
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.dll
-C:\Users\HBK SOFTWARE\source\repos\EFCoreWebMvc\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.pdb
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.deps.json
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.dll
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.pdb
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.AssemblyInfoInputs.cache
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.AssemblyInfo.cs
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.dll
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.pdb
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.runtimeconfig.json
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\bin\Debug\netcoreapp3.1\EFCoreEntity.runtimeconfig.dev.json
+C:\Users\Administrator\Source\Repos\hbksoftware\EFCoreCodeFirst\EFCoreEntity\obj\Debug\netcoreapp3.1\EFCoreEntity.genruntimeconfig.cache
